@@ -7,3 +7,6 @@ Difference between ASCII value of "A" and "a" is 32 => 2^5=> 1<<5
 So, add if you want A->a
 else
 subtract to get a->A
+
+TC: O(N)
+SC: O(N)
