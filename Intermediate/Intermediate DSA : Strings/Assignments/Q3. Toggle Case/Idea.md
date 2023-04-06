@@ -8,5 +8,5 @@ So, add if you want A->a
 else
 subtract to get a->A
 
-TC: O(N)
-SC: O(N)
+        TC: O(N)
+        SC: O(N)
