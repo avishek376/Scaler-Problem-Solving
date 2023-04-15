@@ -9,3 +9,6 @@ Given two numbers, X and Y, how should myCompare() decide which number to put fi
 If XY is greater, then, in the output, X should come before Y, else Y should come before X. 
 
 For example, let X and Y be 542 and 60. To compare X and Y, we compare 54260 and 60542. Since 60542 is greater than 54260, we put Y first.
+
+    TC: O(NlogN)
+    SC: O(1)

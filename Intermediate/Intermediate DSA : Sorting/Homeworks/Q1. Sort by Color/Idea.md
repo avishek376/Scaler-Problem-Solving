@@ -10,3 +10,8 @@ Approach 2:
 
 Swap the 0s to the start of the array maintaining a pointer, and 2s to the end of the array.
 1s will automatically be in their right position.
+
+
+    Approach 1:
+    TC: O(NlogN)
+    Sc: O(1)
