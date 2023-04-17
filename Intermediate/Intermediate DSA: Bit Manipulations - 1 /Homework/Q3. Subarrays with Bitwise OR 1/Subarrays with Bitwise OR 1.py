@@ -5,7 +5,7 @@ class Solution:
     def solve(self, A, B):
         ans, res = 0, 0
         for i in range(A):
-            if B[i]==1:
+            if B[i] == 1:
                 res = i + 1
-            ans+=res
+            ans += res
         return ans
