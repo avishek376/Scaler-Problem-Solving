@@ -3,7 +3,7 @@ which sum is minimum in this array.
 So, Total sum - minimum sum
 By this we will get B pick ups from the array elements which sum will be max.
 
-
+![img.png](img.png)
     
     TC: O(N)
     SC: O(1)
