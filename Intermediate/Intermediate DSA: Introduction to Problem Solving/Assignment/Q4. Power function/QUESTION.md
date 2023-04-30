@@ -2,7 +2,7 @@ Problem Description
 
 You are given two integers A and B.
 
-You have to find the value of AB.
+You have to find the value of A^B.
 
 NOTE: The value of answer is always less than or equal to 109.
 
