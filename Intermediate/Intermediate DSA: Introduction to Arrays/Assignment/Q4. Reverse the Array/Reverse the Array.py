@@ -7,5 +7,13 @@ class Solution:
             lst.append(A[i])
         return lst
 
+    '''
+        def solve(A):
+            lst = [0]*len(A)
+            for item in range(len(A)-1,-1,-1):
+                lst[item] = A[len(A)-item-1]
+            return lst
+    '''
+
 
 

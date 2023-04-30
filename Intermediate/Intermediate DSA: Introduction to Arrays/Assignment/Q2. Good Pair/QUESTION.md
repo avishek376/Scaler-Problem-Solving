@@ -58,10 +58,14 @@ Return 1 if good pair exist otherwise return 0.
 Example Explanation
 Explanation 1:
 
+
  (i,j) = (3,4)
+
 Explanation 2:
 
 No pair has sum equal to 4.
+
 Explanation 3:
+
 
  (i,j) = (2,3)

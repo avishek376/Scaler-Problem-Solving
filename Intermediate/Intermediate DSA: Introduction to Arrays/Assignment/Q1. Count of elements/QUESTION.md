@@ -42,5 +42,6 @@ Example Explanation
 
 Explanation 1:
 The elements that have at least 1 element greater than itself are 1 and 2
+
 Explanation 2:
 The elements that have at least 1 element greater than itself is 3

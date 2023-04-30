@@ -55,6 +55,7 @@ Example Explanation
 Explanation 1:
 The sum of all elements of A[0 ... 3] = 1 + 2 + 3 + 4 = 10.
 The sum of all elements of A[1 ... 2] = 2 + 3 = 5.
+
 Explanation 2:
 
 The sum of all elements of A[0 ... 0] = 2 = 2.

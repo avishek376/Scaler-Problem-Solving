@@ -52,6 +52,7 @@ Explanation 1:
 
  First largest element = 2
  Second largest element = 1
+
 Explanation 2:
 
  There is no second largest element in the array.

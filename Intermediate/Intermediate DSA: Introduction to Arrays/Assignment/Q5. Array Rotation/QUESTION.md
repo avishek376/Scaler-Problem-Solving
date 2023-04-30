@@ -53,6 +53,7 @@ Explanation 1:
 
 
 Rotate towards the right 2 times - [1, 2, 3, 4] => [4, 1, 2, 3] => [3, 4, 1, 2]
+
 Explanation 2:
 
 Rotate towards the right 1 time - [2, 5, 6] => [6, 2, 5]
