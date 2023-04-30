@@ -27,6 +27,9 @@ NOTE: Ordering in the output doesn't matter.
 Example Explanation
 
  Element 17 is strictly greater than all the elements on the right side to it.
+
  Element 2 is strictly greater than all the elements on the right side to it.
+
  Element 5 is strictly greater than all the elements on the right side to it.
+
  So we will return this three elements i.e [17, 2, 5], we can also return [2, 5, 17] or [5, 2, 17] or any other ordering.
