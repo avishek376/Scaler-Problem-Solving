@@ -21,5 +21,5 @@ class Solution:
                 # A**B will find value of B to the power of A 
                 return A ** B 
                 
-                # O(logN)
+                # O(N)
         '''
