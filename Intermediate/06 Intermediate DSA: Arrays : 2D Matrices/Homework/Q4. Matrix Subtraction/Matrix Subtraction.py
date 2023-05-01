@@ -5,7 +5,6 @@ class Solution:
     def solve(self, A, B):
         rows = len(A)
         cols = len(A[0])
-        res = [[0]*cols for i in range(rows)]
 
         for i in range(rows):
             for j in range(cols):
