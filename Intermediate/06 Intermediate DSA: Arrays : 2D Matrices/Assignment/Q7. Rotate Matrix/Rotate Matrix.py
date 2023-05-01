@@ -16,9 +16,8 @@ class Solution:
         for k in range(n):
             last = n - 1
             for l in range(0, n // 2):
-                trmp = A[k][last]
-                A[k][last] = A[k][l]
-                A[k][l] = trmp
+
+                A[k][l], A[k][last] = A[k][last], A[k][l]
                 last -= 1
 
         return A
