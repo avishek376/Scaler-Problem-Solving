@@ -3,12 +3,12 @@ class Solution:
     # @param B : list of list of integers
     # @return a list of list of integers
     def solve(self, A, B):
-        n = len(A)
-        m = len(A[0])
-        res = [[0]*m for i in range(n)]
+        rows = len(A)
+        cols = len(A[0])
+        res = [[0]*cols for i in range(rows)]
 
-        for i in range(n):
-            for j in range(m):
+        for i in range(rows):
+            for j in range(cols):
                 A[i][j] = A[i][j]-B[i][j]
         return A
 
