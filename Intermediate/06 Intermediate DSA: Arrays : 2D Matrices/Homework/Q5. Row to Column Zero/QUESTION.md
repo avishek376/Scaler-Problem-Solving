@@ -15,11 +15,12 @@ Problem Constraints
 
 
 Input Format
+
 First argument is a vector of vector of integers.(2D matrix).
 
 
-
 Output Format
+
 Return a vector of vector after doing required operations.
 
 
