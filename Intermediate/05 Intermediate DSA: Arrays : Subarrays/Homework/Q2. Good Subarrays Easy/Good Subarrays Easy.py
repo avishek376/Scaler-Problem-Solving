@@ -18,6 +18,6 @@ class Solution:
                     sum = pref[j] - pref[i - 1]
                 sz = j - i + 1
                 if sz % 2 == 0 and sum < B: ans += 1
-                if sz & 1 and sum > B: ans += 1
+                if sz % 2 != 0 and sum > B: ans += 1
         return ans
 
