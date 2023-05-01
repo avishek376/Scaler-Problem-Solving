@@ -4,11 +4,11 @@ class Solution:
     def solve(self, A):
         lst = []
 
-        n = len(A)
-        m = len(A[0])
-        for i in range(n):
+        rows = len(A)
+        cols = len(A[0])
+        for i in range(rows):
             summ = 0
-            for j in range(m):
+            for j in range(cols):
                 summ += A[i][j]
             lst.append(summ)
         return lst
