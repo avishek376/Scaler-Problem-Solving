@@ -11,12 +11,12 @@ class Solution:
         if summ == C:
             return 1
 
-        s = 1
-        e = B
-        while e < n:
-            summ = summ - A[s - 1] + A[e]
+        start = 1
+        end = B
+        while end < n:
+            summ = summ - A[start - 1] + A[end]
             if summ == C:
                 return 1
-            s += 1
-            e += 1
+            start += 1
+            end += 1
         return 0
