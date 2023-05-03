@@ -14,6 +14,7 @@ class Solution:
             else:
                 freq -= 1
         c = 0
+        # concluding count of majority ele.
         for i in range(n):
             if A[i] == ele:
                 c += 1
