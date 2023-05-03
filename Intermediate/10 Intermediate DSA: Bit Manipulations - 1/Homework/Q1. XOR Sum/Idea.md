@@ -7,5 +7,5 @@ That's right doesnt matter if the bit is set or unset that bit will be added to 
 Now did you take the observation? If we are adding a bit to out answer if that bit is set for one number and unset for another,
 then it is A ^ B operation itself. So A ^ B is our answer.
 
-TC: O(1)
-SC: O(1)
+    TC: O(1)
+    SC: O(1)

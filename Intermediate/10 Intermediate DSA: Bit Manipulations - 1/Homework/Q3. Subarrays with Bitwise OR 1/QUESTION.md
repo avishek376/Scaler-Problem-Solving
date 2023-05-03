@@ -43,6 +43,7 @@ Explanation 1:
 
 The subarrays are :- [1], [0], [1], [1, 0], [0, 1], [1, 0, 1]
 Except the subarray [0] all the other subarrays has a Bitwise OR = 1
+
 Explanation 2:
 
 The subarrays are :- [1], [0], [1, 0]
