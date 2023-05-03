@@ -2,41 +2,41 @@ class Solution:
     # @param A : integer
     # @return a list of list of integers
     def generateMatrix(self, A):
-
-
-        mat = [ [0] * A for i in range(A) ]
-
-        dir = 0
-        k = 1
-        top = 0
-        bottom = A - 1
-        left = 0
-        right = A - 1
-        while top <= bottom and left <= right:
-            if dir == 0:
-                # top fix
-                for i in range(left, right + 1):
-                    mat[top][i] = k
-                    k += 1
-                top += 1
-            elif dir == 1:
-                #right fix
-                for i in range(top, bottom + 1):
-                    mat[i][right] = k
-                    k += 1
-                right -= 1
-            elif dir == 2:
-                #bottom fix
-                for i in range(right, left - 1, -1):
-                    mat[bottom][i] = k
-                    k += 1
-                bottom -= 1
-
-            elif dir == 3:
-                #left fix
-                for i in range(bottom, top - 1, -1):
-                    mat[i][left] = k
-                    k += 1
-                left += 1
-            dir = (dir + 1) % 4
-        return mat
+        n = A
+        ret = [[0] * n for i in range(n)]
+        T = 0
+        B = n - 1
+        L = 0
+        R = n - 1
+        direction = 0
+        num = 1
+        while T <= B and L <= R:
+            if direction == 0:
+                # move right
+                for i in range(L, R + 1):
+                    ret[T][i] = num
+                    num += 1
+                T += 1
+                direction = 1
+            elif direction == 1:
+                # move down
+                for i in range(T, B + 1):
+                    ret[i][R] = num
+                    num += 1
+                R -= 1
+                direction = 2
+            elif direction == 2:
+                # move left
+                for i in range(R, L - 1, -1):
+                    ret[B][i] = num
+                    num += 1
+                B -= 1
+                direction = 3
+            else:
+                # move up
+                for i in range(B, T - 1, -1):
+                    ret[i][L] = num
+                    num += 1
+                L += 1
+                direction = 0
+        return ret
