@@ -22,7 +22,7 @@ class Solution:
                 pfo[i] = (pfo[i - 1])
 
 
-        c = 0
+        count = 0
 
         for i in range(n):
             se = pfo[n - 1] - pfo[i]
@@ -32,5 +32,5 @@ class Solution:
             if i > 0:
                 so = so + pfo[i - 1]
             if se == so:
-                c += 1
-        return c
+                count += 1
+        return count
