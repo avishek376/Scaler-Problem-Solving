@@ -4,39 +4,39 @@ class Solution:
     def generateMatrix(self, A):
         n = A
         ret = [[0] * n for i in range(n)]
-        T = 0
-        B = n - 1
-        L = 0
-        R = n - 1
+        top = 0
+        bottom = n - 1
+        left = 0
+        right = n - 1
         direction = 0
         num = 1
-        while T <= B and L <= R:
+        while top <= bottom and left <= right:
             if direction == 0:
                 # move right
-                for i in range(L, R + 1):
-                    ret[T][i] = num
+                for i in range(left, right + 1):
+                    ret[top][i] = num
                     num += 1
-                T += 1
+                top += 1
                 direction = 1
             elif direction == 1:
                 # move down
-                for i in range(T, B + 1):
-                    ret[i][R] = num
+                for i in range(top, bottom + 1):
+                    ret[i][right] = num
                     num += 1
-                R -= 1
+                right -= 1
                 direction = 2
             elif direction == 2:
                 # move left
-                for i in range(R, L - 1, -1):
-                    ret[B][i] = num
+                for i in range(right, left - 1, -1):
+                    ret[bottom][i] = num
                     num += 1
-                B -= 1
+                bottom -= 1
                 direction = 3
             else:
                 # move up
-                for i in range(B, T - 1, -1):
-                    ret[i][L] = num
+                for i in range(bottom, top - 1, -1):
+                    ret[i][left] = num
                     num += 1
-                L += 1
+                left += 1
                 direction = 0
         return ret
