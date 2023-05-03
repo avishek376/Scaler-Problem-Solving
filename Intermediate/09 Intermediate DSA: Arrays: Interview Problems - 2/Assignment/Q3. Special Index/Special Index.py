@@ -25,12 +25,12 @@ class Solution:
         count = 0
 
         for i in range(n):
-            se = pfo[n - 1] - pfo[i]
+            sumOfEven = pfo[n - 1] - pfo[i]
             if i > 0:
-                se = se + pfe[i - 1]
-            so = pfe[n - 1] - pfe[i]
+                sumOfEven = sumOfEven + pfe[i - 1]
+            sumOfOdd = pfe[n - 1] - pfe[i]
             if i > 0:
-                so = so + pfo[i - 1]
-            if se == so:
+                sumOfOdd = sumOfOdd + pfo[i - 1]
+            if sumOfEven == sumOfOdd:
                 count += 1
         return count
