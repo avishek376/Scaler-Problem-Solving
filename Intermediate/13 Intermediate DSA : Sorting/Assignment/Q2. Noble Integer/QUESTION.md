@@ -47,6 +47,7 @@ Example Explanation
 Explanation 1:
 
  For integer 2, there are 2 greater elements in the array..
+
 Explanation 2:
 
  There exist no integer satisfying the required conditions.
