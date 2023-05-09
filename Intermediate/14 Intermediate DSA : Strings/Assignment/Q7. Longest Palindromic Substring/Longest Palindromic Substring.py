@@ -8,7 +8,7 @@ class Solution:
                 l -= 1
                 r += 1
 
-            return A[l + 1:r]
+            return A[l+1 : r]
 
         res = ''
         for i in range(len(A)):
