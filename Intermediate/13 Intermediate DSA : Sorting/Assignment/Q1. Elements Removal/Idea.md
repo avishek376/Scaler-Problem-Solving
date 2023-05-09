@@ -15,8 +15,8 @@ So, [a,b,c,d] the process will following below steps:
         c                             c+d
         d                              d
 
-    here, total cost = a+2b+3c+d
-To make this total cost minimum a should be max & d should be minimium.
+    here, total cost = a+2b+3c+4d
+To make this total cost minimum 'a' should be max & 'd' should be minimium.
 
     TC: O(NlogN)
     SC: O(1)
