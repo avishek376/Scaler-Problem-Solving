@@ -20,3 +20,18 @@ class Solution:
             lcp += currentChar
             i += 1
         return lcp
+
+
+    '''
+    class Solution:
+    # @param A : list of strings
+    # @return a strings
+    def longestCommonPrefix(self, A):
+        prefix = A[0]
+        for s in A:
+            while not s.startswith(prefix):
+                prefix = prefix[:-1]
+            if not prefix:
+                return ''
+        return prefix
+    '''
