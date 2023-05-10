@@ -16,3 +16,14 @@ class Solution:
 
         return profit
 
+    '''
+    def maxProfit(self, A):
+        m = 999999
+        res = -999999
+        for i in prices:
+            if i < m:
+                m = i
+            if i - m > res:
+                res = i -m
+        return res
+    '''

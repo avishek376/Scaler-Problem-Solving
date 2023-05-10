@@ -8,3 +8,5 @@ class Solution:
             ans = (ans << 1) | (A & 1)
             A = A >> 1
         return ans
+
+

@@ -1,15 +1,7 @@
 class Solution:
     # @param A : list of characters
     # @return an integer
-    def solve(self, A):
-        A = ''.join(A)
-        if A.isalnum():
-            return 1
-        else:
-            return 0
-
-    '''
-        class Solution:
+    class Solution:
         # @param A : list of characters
         # @return an integer
         def solve(self, A):
@@ -22,4 +14,14 @@ class Solution:
                     continue
                 return 0
             return 1
+
+    '''
+        def solve(self, A):
+            A = ''.join(A)
+            if A.isalnum():
+                return 1
+            else:
+                return 0
+
+        
     '''
