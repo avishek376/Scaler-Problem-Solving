@@ -1,4 +1,5 @@
 Problem Description
+
 Given an integer array A containing N distinct integers.
 
 Find the number of unique pairs of integers in the array whose XOR is equal to B.
@@ -9,6 +10,7 @@ Pair (a, b) and (b, a) is considered to be the same and should be counted once.
 
 
 Problem Constraints
+
     1 <= N <= 105
     
     1 <= A[i], B <= 107
@@ -16,6 +18,7 @@ Problem Constraints
 
 
 Input Format
+
 The first argument is an integer array A.
 
 The second argument is an integer B.
@@ -23,6 +26,7 @@ The second argument is an integer B.
 
 
 Output Format
+
 Return a single integer denoting the number of unique pairs of integers in the array A whose XOR is equal to B.
 
 
@@ -48,9 +52,13 @@ Return a single integer denoting the number of unique pairs of integers in the a
     
 
 Example Explanation
+
+
 Explanation 1:
 
  (10 ^ 15) = 5
+
+
 Explanation 2:
 
  (3 ^ 6) = 5 and (10 ^ 15) = 5 
