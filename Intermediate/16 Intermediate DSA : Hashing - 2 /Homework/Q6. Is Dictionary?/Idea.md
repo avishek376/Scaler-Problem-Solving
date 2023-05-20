@@ -8,5 +8,5 @@ Care must be taken to deal with the blank character effectively.
 If, for example, we are comparing “app” to “apply”, the first difference is between (null) and “l”.
 
     
-    TC: O(N)
+    TC: O(N^2)
     SC: O(N)
