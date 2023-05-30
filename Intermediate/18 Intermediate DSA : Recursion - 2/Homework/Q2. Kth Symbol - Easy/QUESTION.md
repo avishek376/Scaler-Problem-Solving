@@ -48,17 +48,17 @@ Return an integer denoting the Bth indexed symbol in row A.
      1
 
 
-Example Explanation
-
-Explanation 1:
-
- Row 1: 0
- Row 2: 01
- Row 3: 0110
-
-Explanation 2:
-
- Row 1: 0
- Row 2: 01
- Row 3: 0110
- Row 4: 01101001
+   Example Explanation
+   
+   Explanation 1:
+   
+    Row 1: 0
+    Row 2: 01
+    Row 3: 0110
+   
+   Explanation 2:
+   
+    Row 1: 0
+    Row 2: 01
+    Row 3: 0110
+    Row 4: 01101001
