@@ -44,8 +44,8 @@ Example Explanation
 
 Explanation 1:
 
-23 % 3 = 8 % 3 = 2
+2^3 % 3 = 8 % 3 = 2
 
 Explanation 2:
 
-33 % 1 = 27 % 1 = 0
+3^3 % 1 = 27 % 1 = 0
