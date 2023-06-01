@@ -16,8 +16,13 @@ We can use hashmap to store the prefix sum, and if we reach any index for which 
 Compare the length of that subarray with the current longest subarray and update the maximum value accordingly.
 
 
-Please check the below dry run:
+**Please check the below dry run:**
 
+Input: arr[] = {15, -2, 2, -8, 1, 7, 10, 23}
+
+Output: 5
+
+Explanation: The longest sub-array with elements summing up-to 0 is {-2, 2, -8, 1, 7}
 ![image.png](image.png)
 
     TC: O(N)
