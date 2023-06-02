@@ -1,4 +1,28 @@
 class Solution:
+    # @param A : string
+    # @param B : string
+    # @return a strings
+    def addBinary(self, A, B):
+        result = ""
+        carry = 0
+        i ,j = len(A ) -1 ,len(B ) -1
+
+        while i>= 0 or j >= 0:
+            summ = carry
+            if i >= 0:
+                summ += ord(A[i]) - ord('0')
+            if j >= 0:
+                summ += ord(B[j]) - ord('0')
+            i -= 1
+            j -= 1
+
+            carry = 1 if summ > 1 else 0
+            result += str(summ % 2)
+        if carry != 0:
+            result += str(carry)
+        return result[::-1]
+
+'''class Solution:
 	# @param A : string
 	# @param B : string
 	# @return a strings
@@ -36,6 +60,6 @@ class Solution:
             ans += get(carry)
         return ans[::-1]
 
-    '''def addBinary(self, A, B):
+    def addBinary(self, A, B):
         val = int(A,2) + int(B,2)
         return bin(val)[2:]'''
