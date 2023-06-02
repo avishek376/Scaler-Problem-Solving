@@ -45,6 +45,12 @@ For the first step, you would do:
     x = ((x & 0x55555555) << 1) | ((x & 0xAAAAAAAA) >> 1);
 
 
+`for i in range(32):
+            ans = (ans << 1) | (A & 1)
+by checking the right most bit set or not and making or operation with 0 by left shifting it by 1
+A = A >> 1` ==> this will work fine
+
+
     TC: O(1)
     SC: O(1)
 
