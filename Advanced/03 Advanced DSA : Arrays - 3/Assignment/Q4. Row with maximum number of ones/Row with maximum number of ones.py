@@ -7,7 +7,7 @@ class Solution:
 
         i = 0
         j = cols -1
-        # indx = 10001
+
         while i < rows and j >= 0:
             while A[i][j] == 1 and j >= 0:
                 index = i
