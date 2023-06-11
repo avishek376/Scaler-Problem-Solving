@@ -13,4 +13,4 @@ return elements of max ranges
 
     
     TC: O(N)
-    SC: O(1)
+    SC: O(N)
