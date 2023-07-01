@@ -11,7 +11,7 @@ class Solution:
             rightIndex = B[i][1] - 1
             donationByDevotee = B[i][2]
             coins[leftIndex] += donationByDevotee
-            if (rightIndex + 1) < A:
+            if (rightIndex + 1) < n:
                 coins[rightIndex + 1] -= donationByDevotee
         summ = 0
         pf = []
