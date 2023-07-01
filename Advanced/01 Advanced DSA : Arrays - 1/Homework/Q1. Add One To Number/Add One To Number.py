@@ -3,14 +3,13 @@ class Solution:
     # @return a list of integers
     def plusOne(self, A):
         res = []
-        strng = ''
-        for i in range(len(A)):
-            strng += str(A[i])
+        strng = ''.join([str(i) for i in A])
 
         temp = str(int(strng) + 1)
         for i in temp:
             res.append(int(i))
         return res
+
 
 # IF THERE IS NO LEADING ZERO IN ARRAY THEN THIS BELOW SOLUTION WILL WORK
 '''class Solution:
