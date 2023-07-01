@@ -1,7 +1,7 @@
 Instead of calculating area by height*width, we can think it in a cumulative way.
 In other words, we can sum the water amount of each bin(width=1).
 
-Approach 1
+**Approach 1**
 
 We can keep 2 arrays ‘pre’ and ‘suf’. pre[i] is the maximum height for all i from 0 to i and suf[i] is the maximum height for all i from i to n-1.
 Now for each i from 1 to n-2 (as no water can be stored at indexes 0 and 1) just add the maximum amount water that can be stored. The maximum amount of water that can be stored is the minimum of(max height towards left of i,max height towards right of i)-A[i]
@@ -12,7 +12,7 @@ i.e. min(pre[i-1],suf[i+1])-A[i]. But if min(pre[i-1],suf[i+1])-A[i]<0 we dont a
 We are using prefixMax and suffixMAx concept here.
 Can we do better than this? Is there way by which we can improve its auxiliary space?
 
-Approach 2 (Most Efficient)
+**Approach 2 (Most Efficient)**
 
 We can use the concept of two pointers.
 Search from left to right and maintain a max height of left and right separately, which is like a one-side wall of a partial container. Fix the higher one and flow water
