@@ -29,4 +29,4 @@ Therefore time complexity of the above implementation is O(nLogn).
 
 
     TC: O(N)
-    SC: O(N)
+    SC: O(H), H is height of Tree

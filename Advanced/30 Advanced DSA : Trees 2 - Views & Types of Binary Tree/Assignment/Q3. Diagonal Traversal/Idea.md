@@ -12,7 +12,7 @@ As the order in the output matters so we have to move in the pre-order traversal
 Keep repeating the above steps until the whole tree is traversed.
 
     TC : O(N)
-    SC : O(N)
+    SC: O(H), H is height of Tree
 
 Method 2: Using Queue
 
@@ -22,4 +22,4 @@ Method 2: Using Queue
 
 
     TC: O(N), because we are visiting nodes once.
-    SC: O(N), because we are using queue.
+    SC: O(H), H is height of Tree, because we are using queue.

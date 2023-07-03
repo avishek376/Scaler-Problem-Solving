@@ -10,4 +10,4 @@
 
 
     TC: O(N)
-    SC: O(N)
+    SC: O(H), H is height of Tree

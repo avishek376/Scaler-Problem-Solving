@@ -6,4 +6,4 @@ Once you do that, your problem has now been reduced to a smaller set. Now you ha
 Divide and conquer.
 
     TC: O(N)
-    SC: O(N)
+    SC: O(H), H is height of Tree
