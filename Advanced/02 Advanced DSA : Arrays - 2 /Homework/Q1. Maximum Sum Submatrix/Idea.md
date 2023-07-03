@@ -1,6 +1,6 @@
 The naive approach is to generate all possible submatrices from the given matrix and calculate their sum 
 and return the maximum sum among them. What is the Time Complexity of this solution?
-Time Complexity - O(N6). This too slow for the given constraints.
+Time Complexity - O(N^6). This too slow for the given constraints.
 Can you optimize this further? Think using Kadane's Algorithm.
 
 Fix starting and ending column of the required sub-matrix say start and end respectively.
