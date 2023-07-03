@@ -12,7 +12,7 @@ NOTE: INT_MAX = 2^31 - 1
 
 Problem Constraints
     
-    -231 <= A, B <= 231-1
+    -2^31 <= A, B <= 2^31-1
     
     B != 0
 

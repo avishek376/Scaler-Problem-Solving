@@ -6,7 +6,7 @@ Reverse the bits of an 32 bit unsigned integer A.
 
 Problem Constraints
 
-    0 <= A <= 232
+    0 <= A <= 2^32
 
 
 

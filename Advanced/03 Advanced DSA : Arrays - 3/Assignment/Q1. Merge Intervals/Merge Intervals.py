@@ -14,6 +14,8 @@ class Solution:
         for i in range(N):
 
             if intervals[i].end < newInterval.start:
+                # as it's sorted so
+                # if not overlapped sorting order will get maintained
                 res.append(intervals[i])
 
             elif newInterval.end < intervals[i].start:

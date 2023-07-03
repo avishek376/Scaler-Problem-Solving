@@ -9,7 +9,7 @@ NOTE: The order of the resultant array should be the same as the input array.
 Problem Constraints
 
     1 <= length of the array <= 100000
-    1 <= A[i] <= 106
+    1 <= A[i] <= 10^6
 
 
 

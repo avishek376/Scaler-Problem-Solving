@@ -17,6 +17,8 @@ class Solution:
         for i in range(1, len(intervals)):
 
             if R >= intervals[i].start:
+                # although its sorted if left side interval's R is greater then we have to update it to
+                # max R
                 R = max(R, intervals[i].end)
             else:
                 intervalsnew.append(Interval(L, R))

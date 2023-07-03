@@ -1,4 +1,4 @@
-Using seive, we can store the smallest prime factor for all the numbers upto the maximum no (here it is 106).
+Using seive, we can store the smallest prime factor for all the numbers upto the maximum no (here it is 10^6).
 This above information helps in determining the prime factors for any no in O(log n) time-complexity for each query.
 
 We take each no in the input array. Then prime factorise it to count the powers of each prime factors in a number.
