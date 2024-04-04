@@ -13,7 +13,7 @@ class Solution:
                 count += 1
                 start += start
                 end -= end
-            elif B - A[start] > A[end]:
+            elif B > A[end] + A[start]:
                 start += 1
             else:
                 end -= 1
@@ -21,7 +21,6 @@ class Solution:
             return 1
         else:
             return 0
-
 
         '''
             approach-2
