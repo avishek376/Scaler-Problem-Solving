@@ -7,10 +7,8 @@ class Solution:
         start = B
         end = C
 
-        while(start<end):
-            temp = A[start]
-            A[start] = A[end]
-            A[end] = temp
+        while (start < end):
+            A[start], A[end] = A[end], A[start]
             start += 1
             end -= 1
         return A
