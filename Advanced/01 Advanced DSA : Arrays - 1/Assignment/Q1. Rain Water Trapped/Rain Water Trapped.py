@@ -22,6 +22,7 @@ class Solution:
                 res += rightMax - height[r]
         return res
 
+
 '''
 Approach 1
 
@@ -51,4 +52,8 @@ class Solution:
             if amount > 0:
                 ans += amount
         return ans
+        
+        
+        TC: O(N) | SC: O(N)
+        
 '''
