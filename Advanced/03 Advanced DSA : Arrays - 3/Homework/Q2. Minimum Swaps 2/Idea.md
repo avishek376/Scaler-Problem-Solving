@@ -1,6 +1,7 @@
 Suppose we have array A=[A0, A1, A2… ]
 
-Now, let’s keep iterating over this array, and if Ai != i, We swap it with index Ai (that’s where Ai belongs). If you work it out, you can always see some cycle will form.
+Now, let’s keep iterating over this array, and if A[i] != i, We swap it with index A[i] (that’s where A[i] belongs). If
+you work it out, you can always see some cycle will form.
 
 Example:
 
