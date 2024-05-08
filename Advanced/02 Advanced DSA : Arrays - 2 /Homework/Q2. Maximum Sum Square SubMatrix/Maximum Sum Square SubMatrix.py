@@ -11,18 +11,19 @@ class Solution:
 
         # row-wise pf
         for i in range(N):
-            prev = A[i][0]
-            pf[i][0] = A[i][0]
-            for j in range(1, N):
-                pf[i][j] = prev + A[i][j]
-                prev = pf[i][j]
+            for j in range(N):
+                if i == 0:
+                    pf[i][j] = A[i][j]
+                else:
+                    pf[i][j] = pf[i - 1][j] + A[i][j]
 
         # col-wise pf
-        for k in range(N):
-            prev = pf[0][k]
-            for i in range(1, N):
-                pf[i][k] = prev + pf[i][k]
-                prev = pf[i][k]
+        for i in range(N):
+            for j in range(N):
+                if j == 0:
+                    continue
+                else:
+                    pf[i][j] = pf[i][j - 1] + pf[i][j]
 
         max_sum = float('-inf')
 
