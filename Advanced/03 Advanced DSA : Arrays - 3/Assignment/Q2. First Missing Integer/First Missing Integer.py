@@ -6,6 +6,7 @@ class Solution:
         i = 0
         while i < n:
             # if the value is out of range or already in the correct place then move forward
+            # if A[i] is -ve or A[i] > n or A[i] == i + 1 then move forward
             if A[i] < 1 or A[i] > n or i == A[i] - 1:
                 i += 1
             else:
