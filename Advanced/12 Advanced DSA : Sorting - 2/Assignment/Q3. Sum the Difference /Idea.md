@@ -10,5 +10,7 @@ But, be careful, these values can be really large -
 
 2^i : To calculate this you need to take modulo at every step of multiplication
 
+![img.png](img.png)
+
     TC: O(NlogN)
     SC: O(1)
