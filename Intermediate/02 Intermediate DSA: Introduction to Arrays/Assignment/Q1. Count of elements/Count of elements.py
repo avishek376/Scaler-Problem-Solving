@@ -2,6 +2,20 @@ class Solution:
     # @param A : list of integers
     # @return an integer
     def solve(self, A):
+        maxEle = max(A)
+        count = 0
+        for i in A:
+            if i == maxEle:
+                pass
+            else:
+                count += 1
+        return count
+
+'''
+class Solution:
+    # @param A : list of integers
+    # @return an integer
+    def solve(self, A):
         max_value = 0
         max_count = 0
         for x in A:
@@ -12,9 +26,10 @@ class Solution:
                 max_value = x
         return len(A) - max_count
 
+        TC: O(N)
+        SC: O(1)
 
-    '''
-        class Solution:
+    class Solution:
         # @param A : list of integers
         # @return an integer
         def solve(self, A):
@@ -29,4 +44,4 @@ class Solution:
             
             TC: O(NlogN)
             SC: O(1)
-    '''
+'''
