@@ -23,7 +23,8 @@ class Solution:
 	# @param A : list of integers
 	# @return an integer
 	def bulbs(self, A):
-        state = 0
+	
+	    state = 0
         switchCount = 0
 
         for i in range(len(A)):
