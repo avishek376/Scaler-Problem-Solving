@@ -1,6 +1,23 @@
 class Solution:
     # @param A : list of integers
     # @return a list of integers
+
+    class Solution:
+        # @param A : list of integers
+        # @return a list of integers
+        def solve(self, A):
+            maxv = max(A)
+            countArr = [0] * (maxv + 1)
+
+            for i in range(len(A)):
+                countArr[A[i]] += 1
+
+            ans = []
+            for i in range(maxv + 1):
+                ans += countArr[i] * [i]
+
+            return ans
+    '''
     def solve(self, A):
                                       # for this I used an index array upto max element of A not 10**5 to save time
         max1=float("-inf")
@@ -16,6 +33,8 @@ class Solution:
         for i in range(max1+1):       # picks element one by one
             ans+=index[i]*[i]         # in ans array the value of index * single elemnt array =[el,el,el,...(upto its value in index)]
         return ans
+        
+        '''
 
 
 '''class Solution:
