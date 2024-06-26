@@ -14,7 +14,8 @@ class Solution:
 
             ans = []
             for i in range(maxv + 1):
-                ans += countArr[i] * [i]
+                ans += countArr[i] * [i]   #value = countArr[i]*[i]
+                                           # if value: ans.extend(value)
 
             return ans
     '''
