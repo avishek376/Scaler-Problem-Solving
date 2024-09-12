@@ -5,5 +5,7 @@ Since a node does not have reference to its previous node, you must store its pr
 You also need another pointer to store the next node before changing the reference. 
 Do not forget to return the new head reference at the end!
 
+![img.png](img.png)
+
     TC: O(N)
     SC: O(1)
